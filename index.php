@@ -27,6 +27,9 @@ switch ($case) {
     case "maTable":
         include ".\src\Controleur\caseMaTable.php";
         break;
+    case "tableUtilisateur":
+        include ".\src\Controleur\caseTableUtilisateur.php";
+        break;
 
 }
 $Vue->afficher();
